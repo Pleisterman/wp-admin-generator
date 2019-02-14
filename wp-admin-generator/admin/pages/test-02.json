@@ -1,0 +1,29 @@
+{
+    "icon-class"    :       "dashicons dashicons-phone",
+    "title" :               "About",    
+    "capabilities"  :       "manage_options",
+    "submit"  :             false,
+    "sections" :                {
+        "section-01" :          {
+            "title" :       "",
+            "fields" :              {
+                "top-row" :              {
+                    "label" :   "",
+                    "parts" :               {
+                        "how-to" :              {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "element" :  "div",
+                                    "size" :     20,
+                                    "text" :    "text"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }       
+    }
+}

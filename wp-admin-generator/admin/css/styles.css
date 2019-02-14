@@ -1,0 +1,33 @@
+/*
+        @package    pleisterman-wp-admin-generator
+ 
+        file:       css\styles.css
+*/
+
+.pleisterman-wp-admin-generator-main {
+    padding: 2.0em;
+}
+
+.form-table th{
+    display: none;
+}
+
+.form-label {
+    margin-right: 0.7em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.form-label-wide {
+    display: inline-block;
+    padding: 0.0em 0.7em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.error-message {
+    background-color: transparent;
+    color: black;
+    margin: 1.0em 5.4em; 
+    min-height: 2em;
+}

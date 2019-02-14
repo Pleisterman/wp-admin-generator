@@ -1,0 +1,40 @@
+{
+    "top-menu"           :   {
+        "page-title"    :  "Pleisterman Wordpress Admin Generator",
+        "menu-title"    :  "AdminGenerator",
+        "capabilities"  :  "manage_options",
+        "slug"          :  "main",
+        "icon"          :  "dashicons-hammer",
+        "position"      :  "100"
+    },
+    "sub-menus"          :   {
+        "main"              :   {
+            "parent-slug"   :   "main",
+            "page-title"    :   "Pleisteman-Admin-Generator",
+            "menu-title"    :   "Settings",
+            "capabilities"  :   "manage_options",
+            "slug"          :   "main"
+        },
+        "help"          :   { 
+            "parent-slug"   :   "main",
+            "page-title"    :   "About",
+            "menu-title"    :   "About",
+            "capabilities"  :   "manage_options",
+            "slug"          :   "about"
+        },
+        "test-01"          :   { 
+            "parent-slug"   :   "main",
+            "page-title"    :   "Test01",
+            "menu-title"    :   "Test01",
+            "capabilities"  :   "manage_options",
+            "slug"          :   "test-01"
+        },
+        "test-02"          :   { 
+            "parent-slug"   :   "main",
+            "page-title"    :   "Test02",
+            "menu-title"    :   "Test02",
+            "capabilities"  :   "manage_options",
+            "slug"          :   "test-02"
+        }
+    }
+}

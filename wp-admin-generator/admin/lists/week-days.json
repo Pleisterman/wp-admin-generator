@@ -1,0 +1,23 @@
+{
+    "monday" :    {
+        "text"  :   "Monday"
+    },
+    "tuesday" :    {
+        "text"  :   "Tuesday"
+    },
+    "wednesday" :    {
+        "text"  :   "Wednesday"
+    },
+    "thursday" :    {
+        "text"  :   "Thursday"
+    },
+    "friday" :    {
+        "text"  :   "Friday"
+    },
+    "saterday" :    {
+        "text"  :   "Saterday"
+    },
+    "sunday" :    {
+        "text"  :   "Sunday"
+    }
+}

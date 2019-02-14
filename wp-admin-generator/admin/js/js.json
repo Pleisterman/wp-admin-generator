@@ -1,0 +1,14 @@
+{
+    "vertical-collapse.js" : { 
+        "dependency" :      {
+            "app" :  [ "jquery" ],
+            "version" : false
+        }
+    },
+    "dropdown.js" : { 
+        "dependency" :      {
+            "app" :  [ "jquery" ],
+            "version" : false
+        }
+    }
+}

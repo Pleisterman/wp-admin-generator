@@ -1,0 +1,24 @@
+{
+    "name": "pleisterman-wp-admin-generator",
+    "description": "Pleisterman Wordpress Admin Generator",
+    "type": "project",
+    "license": "gpl",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Rob Wolters",
+            "email": "info@pleisterman.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "optimize-autoloader": true
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PleistermanWpAdminGenerator\\Common\\":  "./common/inc",   
+            "PleistermanWpAdminGenerator\\Admin\\":   "./admin/inc"   
+        }    
+    }
+}

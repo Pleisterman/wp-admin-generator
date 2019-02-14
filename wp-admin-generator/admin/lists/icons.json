@@ -1,0 +1,59 @@
+{
+    "dashicons-menu" :    {
+        "text" :    "<div class='dashicons dashicons-menu icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-site" :    {
+        "text" :    "<div class='dashicons dashicons-admin-site icon-dropdown-row'></div>"
+    },
+    "dashicons-dashboard" :    {
+        "text" :    "<div class='dashicons dashicons-dashboard icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-post" :    {
+        "text" :    "<div class='dashicons dashicons-admin-post icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-media" :    {
+        "text" :    "<div class='dashicons dashicons-admin-media icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-links" :    {
+        "text" :    "<div class='dashicons dashicons-admin-links icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-page" :    {
+        "text" :    "<div class='dashicons dashicons-admin-page icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-comments" :    {
+        "text" :    "<div class='dashicons dashicons-admin-comments icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-appearance" :    {
+        "text" :    "<div class='dashicons dashicons-admin-appearance icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-plugins" :    {
+        "text" :    "<div class='dashicons dashicons-admin-plugins icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-users" :    {
+        "text" :    "<div class='dashicons dashicons-admin-users icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-tools" :    {
+        "text" :    "<div class='dashicons dashicons-admin-tools icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-settings" :    {
+        "text" :    "<div class='dashicons dashicons-admin-settings icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-network" :    {
+        "text" :    "<div class='dashicons dashicons-admin-network icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-home" :    {
+        "text" :    "<div class='dashicons dashicons-admin-site icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-generic" :    {
+        "text" :    "<div class='dashicons dashicons-admin-generic icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-collapse" :    {
+        "text" :    "<div class='dashicons dashicons-admin-collapse icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-customizer" :    {
+        "text" :    "<div class='dashicons dashicons-admin-customizer icon-dropdown-row'></div>"
+    },
+    "dashicons-admin-multisite" :    {
+        "text" :    "<div class='dashicons dashicons-admin-multisite icon-dropdown-row'></div>"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "http" :    {
+        "text"  :   "http"
+    },
+    "https" :    {
+        "text"  :   "https"
+    }
+}

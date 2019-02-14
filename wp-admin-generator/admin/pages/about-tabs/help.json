@@ -1,0 +1,224 @@
+{
+    "icon-class"    :       "dashicons dashicons-search",
+    "title"         :       "Help",
+    "capabilities"  :       "manage_options",
+    "submit"  :             false,
+    "sections"      :       {
+        "section-01" :          {
+            "title" :       "",
+            "fields" :              {
+                "top-row" :              {
+                    "label" :   "",
+                    "parts" :               {
+                        "how-to" :              {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-title",
+                                    "text" :        "How do i add Javascript to my project? "
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "dashicons dashicons-arrow-down-alt2 vertical-collapse-toggle-button vertical-collapse-toggle-button-top",
+                                    "text" :        ""
+                                },
+                                {
+                                    "container" :   "open",
+                                    "element" :     "div",
+                                    "class" :       "vertical-collapse-collapse-container"
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "text" :        "Go to the plugin directory: pleisterman-wp-admin-generator."
+                                },
+                                {
+                                    "container" :   "close",
+                                    "element" :     "div"
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "dashicons dashicons-arrow-up-alt2 vertical-collapse-toggle-button vertical-collapse-toggle-button-bottom",
+                                    "text" :        ""
+                                }
+                            ]
+                        },
+                        "frequently-asked-questions" :    {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-title",
+                                    "text" :        "How can I remove the Admin Generator menu from my dashboard?"
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "dashicons dashicons-arrow-down-alt2 vertical-collapse-toggle-button vertical-collapse-toggle-button-top",
+                                    "text" :        ""
+                                },
+                                {
+                                    "container" :   "open",
+                                    "element" :     "div",
+                                    "class" :       "vertical-collapse-collapse-container"
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "text" :        "Go to the plugin directory: pleisterman-wp-admin-generator."
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "text" :        "Go to the directory: config."
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "text" :        "Open the file setting.json."
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "text" :        "Change the value show-admin-menu to false."
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text code",
+                                    "text" :        "'show-admin-menu'   :   false,"
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "text" :        "Save the setttings.json file."
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "text" :        "Refresh the Wordpress page. "
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "text" :        "Your done, easy isn't it? "
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "text" :        "Set the value to true to show it again."
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "style" :       "color:red;font-weight:bold;",
+                                    "text" :        "Be shure to deselect the admin generator menu before you hide the menu."
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "text" :        "All your project menu's remain unaffected. "
+                                },
+                                {
+                                    "container" :   "close",
+                                    "element" :     "div"
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "dashicons dashicons-arrow-up-alt2 vertical-collapse-toggle-button vertical-collapse-toggle-button-bottom",
+                                    "text" :        ""
+                                }
+                            ]
+                        },
+                        "how-to-delete-a-project" : {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-title",
+                                    "text" :        "How to delete a project?"
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "dashicons dashicons-arrow-down-alt2 vertical-collapse-toggle-button vertical-collapse-toggle-button-top",
+                                    "text" :        ""
+                                },
+                                {
+                                    "container" :   "open",
+                                    "element" :     "div",
+                                    "class" :       "vertical-collapse-collapse-container"
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "text" :        "Go to the plugin directory: pleisterman-wp-admin-generator."
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "text" :        "Go to the directory: projects."
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "text" :        "Delete the project directory that you want to remove."
+                                },
+                                {
+                                    "container" :   "close",
+                                    "element" :     "div"
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "dashicons dashicons-arrow-up-alt2 vertical-collapse-toggle-button vertical-collapse-toggle-button-bottom",
+                                    "text" :        ""
+                                }
+                            ]
+                        },
+                        "where-can-i-find-help" : {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-title",
+                                    "text" :        "Where can i find help?"
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "dashicons dashicons-arrow-down-alt2 vertical-collapse-toggle-button vertical-collapse-toggle-button-top",
+                                    "text" :        ""
+                                },
+                                {
+                                    "container" :   "open",
+                                    "element" :     "div",
+                                    "class" :       "vertical-collapse-collapse-container"
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "text" :        "We are always ready to help."
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "text" :        "Email us: <a href='mailto:info@pleisterman.nl'>Mail</a>"
+                                },
+                                {
+                                    "container" :   "close",
+                                    "element" :     "div"
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "dashicons dashicons-arrow-up-alt2 vertical-collapse-toggle-button vertical-collapse-toggle-button-bottom",
+                                    "text" :        ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }       
+    }
+}
