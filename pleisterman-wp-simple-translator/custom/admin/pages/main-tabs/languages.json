@@ -1,0 +1,104 @@
+{
+    "icon-class"    :       "dashicons dashicons-admin-site",
+    "title" :               "Languages",    
+    "capabilities"  :       "manage_options",
+    "stylesheets" :         [
+        "styles.css",
+        "fields.css",
+        "toggle.css",
+        "radio-group.css",
+        "fields.css",
+        "custom.css"
+    ],
+    "scripts" :         {
+        "debugger.js" : { 
+            "dependency" :      {
+                "app" :  [ "jquery" ],
+                "version" : false
+            }
+        },
+        "ajax.js" : { 
+            "dependency" :      {
+                "app" :  [ "jquery" ],
+                "version" : false
+            }
+        },
+        "save-languages.js" : { 
+            "dependency" :      {
+                "app" :  [ "jquery" ],
+                "version" : false
+            }
+        }
+    },
+    "submit"  :             false,
+    "lists"         :       [
+        "languages"
+    ],
+    "sections" :                {
+        "language" :          {
+            "title" :       "",
+            "fields" :              {
+                "language" :              {
+                    "label" :   "",
+                    "prepare-save" :    "languages",
+                    "parts" :               {
+                        "list" :              {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "element" :     "div",
+                                    "class" :       "language-list-title",
+                                    "text" :        "languages: "
+                                },
+                                {
+                                    "input" :           "languages"
+                                }
+                            ]
+                        },
+                        "update-button" :              {
+                            "element" :         "div",
+                            "class" :           "",
+                            "elements" :            [
+                                {
+                                    "element" :     "div",
+                                    "style" :       "min-height: 2em;"
+                                },
+                                {
+                                    "element" :     "div",
+                                    "id" :          "update",
+                                    "class" :       "button button-primary language-button",
+                                    "text" :        "Update"
+                                },
+                                {
+                                    "element" :     "div",
+                                    "style" :       "min-height: 2em;"
+                                }
+                            ]
+                        },
+                        "add-list" :              {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "input" :       "dropdown",
+                                    "list-id" :     "languages",
+                                    "class" :       "dropdown",
+                                    "style" :       "min-width: 8em;",
+                                    "row-class" :   "dropdown-row"
+                                },                            
+                                {
+                                    "element" :     "div",
+                                    "id" :          "insert",
+                                    "class" :       "button button-primary",
+                                    "style" :       "margin-left: 1.6em; ",
+                                    "text" :        "Insert"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }       
+    }
+}

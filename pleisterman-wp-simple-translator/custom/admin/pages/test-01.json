@@ -1,0 +1,707 @@
+{
+    "icon-class"    :       "dashicons dashicons-admin-page",
+    "title"         :       "Test",
+    "capabilities"  :       "manage_options",
+    "class"         :       "",
+    "stylesheets" :         [
+        "styles.css",
+        "fields.css",
+        "radio-group.css",
+        "toggle.css",
+        "dropdown.css",
+        "vertical-collapse-container.css",
+        "custom.css"
+    ],
+    "scripts" :         {
+        "dropdown.js" : { 
+            "dependency" :      {
+                "app" :  [ "jquery" ],
+                "version" : false
+            }
+        },
+        "vertical-collapse.js" : { 
+            "dependency" :      {
+                "app" :  [ "jquery" ],
+                "version" : false
+            }
+        }
+    },
+    "lists"         :       [
+        "protocol",
+        "week-days",
+        "icons",
+        "contact-type"
+    ],
+    "submit-class"  :       "primary submit",
+    "sections"      :       {
+        "section-01" :          {
+            "title" :       "Welkom to Test",
+            "fields" :              {
+                "text-element" :              {
+                    "label" :   "",
+                    "parts" :               {
+                        "text" :              {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-text",
+                                    "text" :        "just some text"
+                                }
+                            ]
+                        },
+                        "link" :              {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "element" :     "span",
+                                    "class" :       "form-label-wide",
+                                    "text" :        "A link"
+                                },
+                                {
+                                    "element" :     "a",
+                                    "href" :        "www.pleisterman.nl",
+                                    "text" :        "www.pleisterman.nl"
+                                }
+                            ]
+                        },
+                        "image" :              {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "element" :     "span",
+                                    "class" :       "form-label-wide",
+                                    "text" :        "An image"
+                                },
+                                {
+                                    "element" :     "img",
+                                    "src" :         "wordpress-logo.png"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "text-area" :              {
+                    "label" :   "",
+                    "parts" :               {
+                        "text" :              {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "input" :   "textarea",
+                                    "class" :   "field-part-textarea",
+                                    "cols"  :   85,
+                                    "rows"  :   10
+                                }
+                            ]
+                        }
+                    }
+                },
+                "radio-group" :              {
+                    "label" :   "",
+                    "parts" :               {
+                        "input" :              {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "element" :     "div",
+                                    "class" :       "form-label",
+                                    "text" :        "Display: "
+                                },
+                                {
+                                    "input" :   "radio-group",
+                                    "class" :   "field-part-radio-group",
+                                    "item-class" :   "field-part-radio-item",
+                                    "label-class" :   "field-part-radio-label",
+                                    "values" : {
+                                        "flags" :       "Flags",
+                                        "flags-text" :  "Flags and Text",
+                                        "text" :        "Text"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "list" :              {
+                    "label" :   "",
+                    "parts" :               {
+                        "contact-type" :              {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "input" :       "dropdown",
+                                    "list-id" :     "contact-type",
+                                    "class" :       "dropdown",
+                                    "style" :       "min-width: 8em;",
+                                    "row-class" :   "dropdown-row"
+                                }
+                            ]
+                        },
+                        "list" :              {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "input" :       "dropdown",
+                                    "list-id" :     "protocol",
+                                    "class" :       "dropdown",
+                                    "style" :       "min-width: 8em;",
+                                    "row-class" :   "dropdown-row"
+                                }
+                            ]
+                        },
+                        "day" :              {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "input" :       "dropdown",
+                                    "list-id" :     "week-days",
+                                    "class" :       "dropdown",
+                                    "row-class" :   "dropdown-row"
+                                }
+                            ]
+                        },
+                        "icon-name" :              {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "sanitize" :        {
+                                "type" :    "text"
+                            },
+                            "elements" :            [
+                                {
+                                    "element" :     "span",
+                                    "class" :       "form-label",
+                                    "text" :        "Icon: "
+                                },
+                                {
+                                    "input" :       "dropdown",
+                                    "list-id" :     "icons",
+                                    "type" :        "image",
+                                    "class" :       "icon-dropdown",
+                                    "button-class" :  "icon-dropdown-button",
+                                    "selection-class" :  "icon-dropdown-selection",
+                                    "content-class" :  "icon-dropdown-content"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "checkbox" :              {
+                    "label" :   "",
+                    "parts" :               {
+                        "checkbox" :              {
+                            "element" :         "div",
+                            "sanitize" :        {
+                                "type" :    "checkbox"
+                            },
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "container" :   "open",
+                                    "element" :     "span",
+                                    "class" :       "form-label-wide",
+                                    "text" :        "deze: "
+                                },
+                                {
+                                    "container" :   "open",
+                                    "element" :     "label",
+                                    "class" :       "checkbox-switch"
+                                },
+                                {
+                                    "input" :       "checkbox",
+                                    "class" :       "checkbox"
+                                },
+                                {
+                                    "element" :     "span",
+                                    "class" :       "checkbox-slider round"
+                                },
+                                {
+                                    "container" :   "close",
+                                    "element" :     "label"
+                                }
+                            ]
+                        },
+                        "checkbox2" :              {
+                            "element" :         "div",
+                            "sanitize" :        {
+                                "type" :    "checkbox"
+                            },
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "container" :   "open",
+                                    "element" :     "span",
+                                    "class" :       "form-label-wide",
+                                    "text" :        "deze: "
+                                },
+                                {
+                                    "container" :   "open",
+                                    "element" :     "label",
+                                    "class" :       "checkbox-switch"
+                                },
+                                {
+                                    "input" :       "checkbox",
+                                    "class" :       "checkbox"
+                                },
+                                {
+                                    "element" :     "span",
+                                    "class" :       "checkbox-slider round"
+                                },
+                                {
+                                    "container" :   "close",
+                                    "element" :     "label"
+                                }
+                            ]
+                        },
+                        "checkbox3" :              {
+                            "element" :         "div",
+                            "sanitize" :        {
+                                "type" :    "checkbox"
+                            },
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "container" :   "open",
+                                    "element" :     "span",
+                                    "class" :       "form-label-wide",
+                                    "text" :        "deze: "
+                                },
+                                {
+                                    "container" :   "open",
+                                    "element" :     "label",
+                                    "class" :       "checkbox-switch"
+                                },
+                                {
+                                    "input" :       "checkbox",
+                                    "class" :       "checkbox"
+                                },
+                                {
+                                    "element" :     "span",
+                                    "class" :       "checkbox-slider round"
+                                },
+                                {
+                                    "container" :   "close",
+                                    "element" :     "label"
+                                }
+                            ]
+                        },
+                        "checkbox4" :              {
+                            "element" :         "div",
+                            "sanitize" :        {
+                                "type" :    "checkbox"
+                            },
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "container" :   "open",
+                                    "element" :     "span",
+                                    "class" :       "form-label-wide",
+                                    "text" :        "deze: "
+                                },
+                                {
+                                    "container" :   "open",
+                                    "element" :     "label",
+                                    "class" :       "checkbox-switch"
+                                },
+                                {
+                                    "input" :       "checkbox",
+                                    "class" :       "checkbox"
+                                },
+                                {
+                                    "element" :     "span",
+                                    "class" :       "checkbox-slider round"
+                                },
+                                {
+                                    "container" :   "close",
+                                    "element" :     "label"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "text" :              {
+                    "label" :   "",
+                    "parts" :               {
+                        "text" :              {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "sanitize" :        {
+                                "type" :    "text"
+                            },
+                            "validate" :        {
+                                "type" :    "not-empty"
+                            },
+                            "elements" :            [
+                                {
+                                    "element" :     "span",
+                                    "class" :       "form-label",
+                                    "text" :        "Text: "
+                                },
+                                {
+                                    "input" :       "text",
+                                    "placeholder" : "Enter text",
+                                    "size" :        60
+                                }
+                            ]
+                        },
+                        "text2" :              {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "sanitize" :        {
+                                "type" :    "text"
+                            },
+                            "validate" :        {
+                                "type" :    "not-empty"
+                            },
+                            "elements" :            [
+                                {
+                                    "element" :     "span",
+                                    "class" :       "form-label",
+                                    "text" :        "Text2: "
+                                },
+                                {
+                                    "input" :       "text",
+                                    "placeholder" : "Enter text",
+                                    "size" :        10
+                                }
+                            ]
+                        }
+                    }
+                },
+                "hidden" :              {
+                    "label" :   "",
+                    "parts" :               {
+                        "hidden" :              {
+                            "element" :         "div",
+                            "style" :           "display:none",
+                            "sanitize" :        {
+                                "type" :    "text"
+                            },
+                            "elements" :            [
+                                {
+                                    "input" :   "hidden",    
+                                    "use-saved-value" : false,
+                                    "default-value" :    true
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "section-02" :          {
+            "title" :       "",
+            "fields" :              {
+                "row01" :              {
+                    "label" :   "Testink 1, 2, 3",
+                    "parts" :               {
+                        "main-container-header" :              {
+                            "elements" :            [
+                                {
+                                    "container" :   "open",
+                                    "element" :     "div",
+                                    "class" :       "field-container vertical-collapse-start-open"
+                                }
+                            ]
+                        },
+                        "container-header" :              {
+                            "elements" :            [
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-title",
+                                    "text" :        "Test a lot of inputs in a container."
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "dashicons dashicons-arrow-down-alt2 vertical-collapse-toggle-button vertical-collapse-toggle-button-top",
+                                    "text" :        ""
+                                },
+                                {
+                                    "container" :   "open",
+                                    "element" :     "div",
+                                    "class" :       "vertical-collapse-collapse-container"
+                                },
+                                {
+                                    "container" :   "open",
+                                    "element" :     "div",
+                                    "class" :       "vertical-collapse-collapse-container-content"
+                                }
+                            ]
+                        },
+                        "test-value01" :              {
+                            "elements" :            [
+                                {
+                                    "container" :   "open",
+                                    "element" :     "span",
+                                    "class" :       "form-wide-label",
+                                    "text" :        "Text1: "
+                                },
+                                {
+                                    "input" :       "text",
+                                    "placeholder" : "Enter text",
+                                    "size" :        10
+                                },
+                                {
+                                    "container" :   "close",
+                                    "element" :     "span"
+                                }                            
+                            ]
+                        },
+                        "test-value02" :              {
+                            "elements" :            [
+                                {
+                                    "element" :     "span",
+                                    "class" :       "form-wide-label",
+                                    "text" :        "Text2: "
+                                },
+                                {
+                                    "input" :       "text",
+                                    "placeholder" : "Enter text",
+                                    "size" :        10
+                                },
+                                {
+                                    "element" :       "div"
+                                }                            
+                            ]
+                        },
+                        "test-value03" :              {
+                            "elements" :            [
+                                {
+                                    "element" :     "span",
+                                    "class" :       "form-wide-label",
+                                    "text" :        "Text3: "
+                                },
+                                {
+                                    "input" :       "text",
+                                    "placeholder" : "Enter text",
+                                    "size" :        10
+                                }                            ]
+                        },
+                        "test-value04" :              {
+                            "elements" :            [
+                                {
+                                    "element" :     "span",
+                                    "class" :       "form-wide-label",
+                                    "text" :        "Text4: "
+                                },
+                                {
+                                    "input" :       "text",
+                                    "placeholder" : "Enter text",
+                                    "size" :        10
+                                },
+                                {
+                                    "element" :       "div"
+                                }
+                            ]
+                        },
+                        "test-value05" :              {
+                            "elements" :            [
+                                {
+                                    "element" :     "span",
+                                    "class" :       "form-wide-label",
+                                    "text" :        "Text5: "
+                                },
+                                {
+                                    "input" :       "text",
+                                    "placeholder" : "Enter text",
+                                    "size" :        10
+                                }
+                            ]
+                        },
+                        "test-value06" :              {
+                            "elements" :            [
+                                {
+                                    "element" :     "span",
+                                    "class" :       "form-wide-label",
+                                    "text" :        "Text6: "
+                                },
+                                {
+                                    "input" :       "text",
+                                    "placeholder" : "Enter text",
+                                    "size" :        10
+                                },
+                                {
+                                    "element" :       "div"
+                                }
+                            ]
+                        },
+                        "container-footer" :              {
+                            "elements" :            [
+                                {
+                                    "container" :   "close",
+                                    "element" :     "div"
+                                },
+                                {
+                                    "container" :   "close",
+                                    "element" :     "div"
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "dashicons dashicons-arrow-up-alt2 vertical-collapse-toggle-button vertical-collapse-toggle-button-bottom",
+                                    "text" :        ""
+                                }
+                            ]
+                        },
+                        "main-container-footer" :              {
+                            "elements" :            [
+                                {
+                                    "container" :   "close",
+                                    "element" :     "div"
+                                }
+                            ]
+                        },
+                        "main-container-header02" :              {
+                            "elements" :            [
+                                {
+                                    "container" :   "open",
+                                    "element" :     "div",
+                                    "class" :       "field-container collapse-start-open"
+                                }
+                            ]
+                        },
+                        "container-header02" :              {
+                            "elements" :            [
+                                {
+                                    "element" :     "div",
+                                    "class" :       "field-title",
+                                    "text" :        "Test a lot of inputs in a second container."
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "dashicons dashicons-arrow-down-alt2 vertical-collapse-toggle-button vertical-collapse-toggle-button-top",
+                                    "text" :        ""
+                                },
+                                {
+                                    "container" :   "open",
+                                    "element" :     "div",
+                                    "class" :       "vertical-collapse-collapse-container"
+                                }
+                            ]
+                        },
+                        "test-value07" :              {
+                            "elements" :            [
+                                {
+                                    "element" :     "span",
+                                    "class" :       "form-wide-label",
+                                    "text" :        "Text1: "
+                                },
+                                {
+                                    "input" :       "text",
+                                    "placeholder" : "Enter text",
+                                    "size" :        10
+                                }                            
+                            ]
+                        },
+                        "test-value08" :              {
+                            "elements" :            [
+                                {
+                                    "element" :     "span",
+                                    "class" :       "form-wide-label",
+                                    "text" :        "Text2: "
+                                },
+                                {
+                                    "input" :       "text",
+                                    "placeholder" : "Enter text",
+                                    "size" :        10
+                                },
+                                {
+                                    "element" :       "div"
+                                }                            
+                            ]
+                        },
+                        "test-value09" :              {
+                            "elements" :            [
+                                {
+                                    "element" :     "span",
+                                    "class" :       "form-wide-label",
+                                    "text" :        "Text3: "
+                                },
+                                {
+                                    "input" :       "text",
+                                    "placeholder" : "Enter text",
+                                    "size" :        10
+                                }                            ]
+                        },
+                        "test-value10" :              {
+                            "elements" :            [
+                                {
+                                    "element" :     "span",
+                                    "class" :       "form-wide-label",
+                                    "text" :        "Text4: "
+                                },
+                                {
+                                    "input" :       "text",
+                                    "placeholder" : "Enter text",
+                                    "size" :        10
+                                },
+                                {
+                                    "element" :       "div"
+                                }
+                            ]
+                        },
+                        "test-value11" :              {
+                            "elements" :            [
+                                {
+                                    "element" :     "span",
+                                    "class" :       "form-wide-label",
+                                    "text" :        "Text5: "
+                                },
+                                {
+                                    "input" :       "text",
+                                    "placeholder" : "Enter text",
+                                    "size" :        10
+                                }
+                            ]
+                        },
+                        "test-value12" :              {
+                            "elements" :            [
+                                {
+                                    "element" :     "span",
+                                    "class" :       "form-wide-label",
+                                    "text" :        "Text6: "
+                                },
+                                {
+                                    "input" :       "text",
+                                    "placeholder" : "Enter text",
+                                    "size" :        10
+                                },
+                                {
+                                    "element" :       "div"
+                                }
+                            ]
+                        },
+                        "container-footer02" :              {
+                            "elements" :            [
+                                {
+                                    "container" :   "close",
+                                    "element" :     "div"
+                                },
+                                {
+                                    "element" :     "div",
+                                    "class" :       "dashicons dashicons-arrow-up-alt2 vertical-collapse-toggle-button vertical-collapse-toggle-button-bottom",
+                                    "text" :        ""
+                                }
+                            ]
+                        },
+                        "main-container-footer02" :              {
+                            "elements" :            [
+                                {
+                                    "container" :   "close",
+                                    "element" :     "div"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

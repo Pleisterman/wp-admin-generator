@@ -1,0 +1,117 @@
+{
+    "icon-class"    :       "dashicons dashicons-admin-generic",
+    "title" :               "Options",    
+    "capabilities"  :       "manage_options",
+    "submit-class"  :       "button button-primary form-button",
+    "stylesheets" :         [
+        "styles.css",
+        "fields.css",
+        "radio-group.css",
+        "fields.css",
+        "custom.css"
+    ],
+    "scripts" :         {
+        "debugger.js" : { 
+            "dependency" :      {
+                "app" :  [ "jquery" ],
+                "version" : false
+            }
+        },
+        "ajax.js" : { 
+            "dependency" :      {
+                "app" :  [ "jquery" ],
+                "version" : false
+            }
+        },
+        "save-options.js" : { 
+            "dependency" :      {
+                "app" :  [ "jquery" ],
+                "version" : false
+            }
+        }
+    },
+    "before-form" :              [
+        {
+            "element" :     "div",
+            "text" :        "hier comes the form"
+        }
+    ],
+    "sections" :                {
+        "section-01" :          {
+            "title" :       "",
+            "fields" :              {
+                "options" :              {
+                    "parts" :               {
+                        "display" :              {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "element" :     "div",
+                                    "class" :       "form-label",
+                                    "text" :        "Display: "
+                                },
+                                {
+                                    "input" :   "radio-group",
+                                    "class" :   "vertical-radio-group option",
+                                    "style" :       "padding-top: 1.4em;",
+                                    "item-class" :   "vertical-radio-item",
+                                    "label-class" :   "vertical-radio-label",
+                                    "values" : {
+                                        "flags" :       "Flags",
+                                        "flags-text" :  "Flags and Text",
+                                        "text" :        "Text"
+                                    }
+                                }
+                            ]
+                        },
+                        "use-ajax" :  {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "element" :     "div",
+                                    "class" :       "form-label",
+                                    "text" :        "Use Ajax: "
+                                },
+                                {
+                                    "input" :   "radio-group",
+                                    "class" :   "vertical-radio-group option",
+                                    "style" :       "padding-top: 1.4em;",
+                                    "item-class" :   "vertical-radio-item",
+                                    "label-class" :   "vertical-radio-label",
+                                    "values" : {
+                                        "true" :    "Ajax Enabled.",
+                                        "false" :   "Save with reload."
+                                    }
+                                }
+                            ]
+                        },
+                        "search-in-all-languages" :  {
+                            "element" :         "div",
+                            "class" :           "field-container",
+                            "elements" :            [
+                                {
+                                    "element" :     "div",
+                                    "class" :       "form-label",
+                                    "text" :        "Search in in all languages: "
+                                },
+                                {
+                                    "input" :   "radio-group",
+                                    "class" :   "vertical-radio-group option",
+                                    "style" :       "padding-top: 1.4em;",
+                                    "item-class" :   "vertical-radio-item",
+                                    "label-class" :   "vertical-radio-label",
+                                    "values" : {
+                                        "true" :    "Search in in all languages.",
+                                        "false" :   "Search only current language."
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }       
+    }
+}

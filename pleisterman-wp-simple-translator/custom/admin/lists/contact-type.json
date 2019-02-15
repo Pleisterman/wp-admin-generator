@@ -1,0 +1,14 @@
+{
+    "customer" :    {
+        "text"  :   "Customer"
+    },
+    "friend" :    {
+        "text"  :   "Friend"
+    },
+    "sales" :    {
+        "text"  :   "Sales"
+    },
+    "suppliers" :    {
+        "text"  :   "Suppliers"
+    }
+}

@@ -1,0 +1,56 @@
+/*
+        @package    pleisterman-wp-admin-generator
+ 
+        file:       css\fields.css
+*/
+
+.element-container {
+    display: table;
+    margin-top: 20px;
+    margin-right: 40px;
+    padding: 0.8em 1.8em;
+    background-color: whitesmoke;
+    border-radius: 0.4em;
+    -moz-box-shadow: 1px 1px 1px 1px rgba(46, 139, 88, 0.6 );
+    -webkit-box-shadow: 1px 1px 1px 1px rgba( 46, 139, 88, 0.6 );
+    box-shadow: 1px 1px 1px 1px rgba( 46, 139, 88, 0.6 );
+}
+
+.field-container {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 40px;
+    padding: 0.8em 1.8em;
+    background-color: whitesmoke;
+    border-radius: 0.4em;
+    -moz-box-shadow: 1px 1px 1px 1px rgba(46, 139, 88, 0.6 );
+    -webkit-box-shadow: 1px 1px 1px 1px rgba( 46, 139, 88, 0.6 );
+    box-shadow: 1px 1px 1px 1px rgba( 46, 139, 88, 0.6 );
+}
+
+.field-title {
+    margin-top: 0.3em;
+    margin-bottom: 0.6em;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.field-sub-title {
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.field-text {
+    font-size: 1.1em;
+    font-weight: normal;
+    padding: 0.4em;
+}
+
+.field-code {
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+    background-color: rgba( 255,255,255, 0.3 );
+}

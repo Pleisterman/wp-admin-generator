@@ -1,0 +1,23 @@
+{
+    "name": "pleisterman/pleisterman-wp-simple-translator",
+    "description": "Simple Translator for Wordpress front end",
+    "license": "gpl",
+    "authors": [
+        {
+            "name": "Pleisterman",
+            "email": "info@pleisterman.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "optimize-autoloader": true
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PleistermanWpSimpleTranslator\\Common\\":          "./common/inc",   
+            "PleistermanWpSimpleTranslator\\Admin\\":           "./admin/inc" ,   
+            "PleistermanWpSimpleTranslator\\Custom\\Admin\\":   "./custom/admin/inc"   
+        }    
+    }
+}

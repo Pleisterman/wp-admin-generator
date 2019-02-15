@@ -1,0 +1,23 @@
+{
+    "plugin-id"         :   "pleisterman-wp-simple-translator", 
+    "app-title"         :   "Pleisterman Simple Translator", 
+    "text-domain"       :   "pleisterman-wp-simple-translator",
+    "debug-on"          :   true,
+    "debug-marker"      :   "-----------------------------------------------------------------------------------",
+    "debug-levels"      :   [ "error", "!message", "!admin-init", "!add-css", "!add-js", "!ajax",
+                              "!request-needs-handling", "!tabs", "!menu",  
+                              "!load-page", "!register-page", "!open-page", "!lists", "!ajax", "!de-install", 
+                              "!generate", "!validate", "!sanitize", "prepare-save","!translations",
+                               "!languages-field" ],
+    "debug-js"       :      {
+        "debug-on" : true,                     
+        "z-index" :  8000,                     
+        "top" :     510,                      
+        "left" :    740,                        
+        "width" :   350,                     
+        "height" :  170                       
+    },
+    "html-generator-elements-no-close"  :   [
+        "input"
+    ]
+}

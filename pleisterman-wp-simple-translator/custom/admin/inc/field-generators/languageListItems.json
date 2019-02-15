@@ -1,0 +1,171 @@
+{
+    "headers" : [
+        {
+            "element" :     "div",
+            "class" :       "language-row-title language-row-title-order",
+            "text" :        "Order"
+        },
+        {
+            "element" :     "div",
+            "class" :       "language-row-title language-row-title-name",
+            "text" :        "Language"
+        },
+        {
+            "element" :     "div",
+            "class" :       "language-row-title language-row-title-slug",
+            "text" :        "Slug"
+        },
+        {
+            "element" :     "div",
+            "class" :       "language-row-title",
+            "text" :        "Active"
+        },
+        {
+            "element" :     "div",
+            "class" :       "language-row-title",
+            "text" :        "Input"
+        },
+        {
+            "element" :     "div",
+            "class" :       "language-row-title language-row-title-last",
+            "text" :        "Default"
+        },
+        {
+            "element" :     "div",
+            "class" :       "language-row-title language-row-title-button",
+            "text" :        "&nbsp;"
+        },
+        {
+            "element" :     "div",
+            "class" :       "",
+            "text" :        ""
+        }
+    ],
+    "items" : [
+        {
+            "container" :   "open",
+            "element" :     "div",
+            "class" :       "language-row"
+        },
+        {
+            "container" :   "open",
+            "element" :     "div",
+            "class" :       "order-button-container order-button-down-container"
+
+        },
+        {
+            "generate-as" : "order-button-down",
+            "element" :     "div",
+            "class" :       "language-order-button dashicons dashicons-arrow-down"
+        },
+        {
+            "container" :   "close",
+            "element" :     "div"
+        },
+        {
+            "container" :   "open",
+            "element" :     "div",
+            "class" :       "order-button-container order-button-up-container"
+
+        },
+        {
+            "generate-as" : "order-button-up",
+            "element" :     "div",
+            "class" :       "language-order-button dashicons dashicons-arrow-up"
+        },
+        {
+            "container" :   "close",
+            "element" :     "div"
+        },
+        {
+            "generate-as" : "name",
+            "element" :     "div",
+            "class" :       "language-name"
+        },
+        {
+            "generate-as" : "slug",
+            "type" :        "text",
+            "element" :     "input",
+            "class" :       "language-slug-input"
+        },
+        {
+            "container" :   "open",
+            "element" :     "div",
+            "class" :       "language-option"
+        },
+        {
+            "container" :   "open",
+            "element" :     "label",
+            "class" :       "checkbox-switch"
+        },
+        {
+            "generate-as" : "active",
+            "element" :     "input",
+            "type" :       "checkbox",
+            "class" :       "checkbox"
+        },
+        {
+            "element" :     "span",
+            "class" :       "checkbox-slider round"
+        },
+        {
+            "container" :   "close",
+            "element" :     "label"
+        },
+        {
+            "container" :   "close",
+            "element" :     "div"
+        },
+        {
+            "container" :   "open",
+            "element" :     "div",
+            "class" :       "language-option"
+        },
+        {
+            "generate-as" : "input-language",
+            "name" :        "input-language",
+            "element" :     "input",
+            "type" :        "radio",
+            "class" :       "horizontal-radio-item language-option"
+        },
+        {
+            "container" :   "close",
+            "element" :     "div"
+        },
+        {
+            "container" :   "open",
+            "element" :     "div",
+            "class" :       "language-option"
+        },
+        {
+            "generate-as" : "default-language",
+            "name" :        "default-language",
+            "element" :     "input",
+            "type" :        "radio",
+            "class" :       "horizontal-radio-item language-option"
+        },
+        {
+            "container" :   "close",
+            "element" :     "div"
+        },
+        {
+            "container" :   "open",
+            "element" :     "div",
+            "class" :       "delete-button-container"
+
+        },
+        {
+            "generate-as" : "delete-button",
+            "element" :     "div",
+            "class" :       "button button-primary language-delete-button"
+        },
+        {
+            "container" :   "close",
+            "element" :     "div"
+        },
+        {
+            "container" :   "close",
+            "element" :     "div"
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+/*
+        @package    pleisterman-wp-admin-generator
+ 
+        file:       css\dropdown.css
+*/
+
+.dropdown {
+    vertical-align: top;
+    display: inline-block;
+    padding: 0.8em 1.2em;
+    background-color: whitesmoke;
+    border-radius: 0.2em;
+    -moz-box-shadow: 1px 1px 1px 1px rgba(46, 139, 88, 0.6 );
+    -webkit-box-shadow: 1px 1px 1px 1px rgba( 46, 139, 88, 0.6 );
+    box-shadow: 1px 1px 1px 1px rgba( 46, 139, 88, 0.6 );
+}
+
+.dropdown-row {
+}
+
+.div-dropdown {
+    vertical-align: top;
+    display: inline-block;
+    padding: 0.2em 1.8em;
+    background-color: whitesmoke;
+    border-radius: 0.2em;
+}
+
+.div-dropdown-selection {
+    vertical-align: top;
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 0.2em;
+}
+
+.div-dropdown-button {
+    float: right;
+    width: 2.4em; 
+    height: 1.2em; 
+    margin-left: 0.2em;    
+    padding-top: 0.2em;
+    border: 0.1em rgba( 46, 139, 88, 0.6 ) groove;
+    border-radius: 0.2em;
+    background-color: rgba( 46, 139, 88, 0.3 );
+    cursor: pointer;
+}
+
+.div-dropdown-button:hover {
+    background-color: rgba( 46, 139, 88, 0.6 );
+ }
+
+.div-dropdown-collapse-container {
+    max-height: 0px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    margin-top: 1.3em;
+}
+
+.div-dropdown-collapse-container-content {
+    border-radius: 0.3em;
+    border: 0.1em rgba( 46, 139, 88, 0.6 ) groove;
+    padding: 2.5em;
+    padding-left: 1.2em;
+    padding-top: 1.2em;
+}
+
+.div-dropdown-row {
+}
+
+.div-dropdown-row:hover {
+}
+
+
+.icon-dropdown {
+
+}
+
+.icon-dropdown-button {
+    margin-top: 18px;
+}
+
+.icon-dropdown-selection {
+    height: 40px;
+    width: 40px;
+}
+
+.icon-dropdown-content {
+    max-height: 50px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.icon-dropdown-row {
+    margin: 4px 6px;
+    padding-top: 10px;
+    height: 30px;
+    width: 40px;
+    background-color: rgba( 46, 139, 88, 0.3 );
+    border: 0.1em rgba( 46, 139, 88, 0.6 ) groove;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+.icon-dropdown-row:hover {
+    background-color: rgba( 46, 139, 88, 0.6 );
+}

@@ -1,0 +1,123 @@
+/*
+        @package    pleisterman-wp-simple-translator
+ 
+        file:       css\styles.css
+*/
+
+.language-list-title {
+    margin-right: 0.7em;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0.4em 0.0em;
+    margin-bottom: 0.5em;
+}
+
+.language-row-title {
+    display: inline-block;
+    border-bottom: 1px black groove;
+    min-width: 4.0em;
+    padding-left: 0.6em;
+}
+
+.language-row-title-last {
+    display: inline-block;
+    clear: right;
+    
+}
+
+.language-row {
+    padding: 0.2em;    
+    margin: 0.2em;
+    min-width: 44em;
+}
+
+.language-option {
+    vertical-align: middle;
+    display: inline-block;
+    padding: 0.3em;
+    margin-left: 0.6em;
+    min-width: 3.4em;
+    
+}
+
+.language-row-title-order {
+    width: 5.9em;
+    margin-left: 0.2em;
+    padding-left: 0.2em;
+}
+
+.order-button-container {
+    vertical-align: middle;
+    display: inline-block;
+    width: 2.2em;
+    min-height: 1.5em;
+    text-align: left;
+}
+
+.language-order-button {
+    margin-left: 0.0em;
+    padding-right: 0.1em;
+    font-size: 3em;
+    padding-bottom: 0.2em;
+    height: 0.8em;
+    border-radius: 0.2em;
+    text-align: left;
+    cursor: pointer;
+    color: black;
+}
+
+.language-order-button::before {
+    margin-left: -0.3em;
+}
+
+.language-order-button:hover {
+    color: rgb(0, 142, 194);
+}
+
+.language-row-title-name {
+    width: 11.5em;
+    padding-left: 0.4em;
+}
+
+.language-name {
+    margin-left: 1.2em;
+    vertical-align: middle;
+    display: inline-block;
+    width: 10.5em;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.language-row-title-slug {
+    width: 4.1em;
+}
+
+.language-slug-input {
+    margin-left: 0.6em;
+    width: 3em;
+}
+
+.language-slug-input.error{
+    border: 2px red groove;
+}
+
+.language-row-title-button {
+    width: 8em;
+}
+
+.language-button {
+    margin-left: 1.2em !important;
+}
+
+.language-delete-button {
+    display: inline-block;
+}
+
+.delete-button-container {
+    vertical-align: middle;
+    display: inline-block;
+    width: 8em;
+    min-height: 1.5em;
+    text-align: center;
+}
+

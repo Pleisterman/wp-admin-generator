@@ -1,0 +1,827 @@
+{
+   "af" : {
+      "iso" :     "af",
+      "wp" :      "af",
+      "text" :    "Afrikaans"
+    },
+   "ak" : {
+      "iso" :     "ak",
+      "wp" :      "ak",
+      "text" :    "Akan"
+    },
+   "sq" : {
+      "iso" :     "sq",
+      "wp" :      "sq",
+      "text" :    "Albanian"
+    },
+   "arq" : {
+      "iso" :     "arq",
+      "wp" :      "arq",
+      "text" :    "الدارجة الجزايرية"
+    },
+   "am" : {
+      "iso" :     "am",
+      "wp" :      "am",
+      "text" :    "አማርኛ"
+    },
+   "ar" : {
+      "iso" :     "ar",
+      "wp" :      "ar",
+      "text" :    "العربية"
+    },
+   "ary" : {
+      "iso" :     "ary",
+      "wp" :      "ary",
+      "text" :    "العربية المغربية"
+    },
+   "hy" : {
+      "iso" :     "hy",
+      "wp" :      "hy",
+      "text" :    "Հայերեն"
+    },
+   "rup" : {
+      "iso" :     "rup",
+      "wp" :      "rup_MK",
+      "text" :    "Armãneashce"
+    },
+   "as" : {
+      "iso" :     "as",
+      "wp" :      "as",
+      "text" :    "অসমীয়া"
+    },
+   "az" : {
+      "iso" :     "az",
+      "wp" :      "az",
+      "text" :    "Azərbaycan dili"
+    },
+   "azb" : {
+      "iso" :     "azb",
+      "wp" :      "azb",
+      "text" :    "گؤنئی آذربایجان"
+    },
+   "az-tr" : {
+      "iso" :     "az-tr",
+      "wp" :      "az_TR",
+      "text" :    "Azərbaycan Türkcəsi"
+    },
+   "ba" : {
+      "iso" :     "ba",
+      "wp" :      "ba",
+      "text" :    "башҡорт теле"
+    },
+   "eu" : {
+      "iso" :     "eu",
+      "wp" :      "eu",
+      "text" :    "Euskara"
+    },
+   "be" : {
+      "iso" :     "be",
+      "wp" :      "be_BY",
+      "text" :    "Беларуская мова"
+    },
+   "bn" : {
+      "iso" :     "bn",
+      "wp" :      "bn_BD",
+      "text" :    "বাংলা"
+    },
+   "bg" : {
+      "iso" :     "bg",
+      "wp" :      "bg_BG",
+      "text" :    "Български"
+    },
+   "bs" : {
+      "iso" :     "bs",
+      "wp" :      "bs_BA",
+      "text" :    "Bosanski"
+    },
+   "br" : {
+      "iso" :     "br",
+      "wp" :      "bre",
+      "text" :    "Brezhoneg"
+    },
+   "bd" : {
+      "iso" :     "bd",
+      "wp" :      "bd",
+      "text" :    "বাংলা bāṇlā"
+    },
+   "bt" : {
+      "iso" :     "bt",
+      "wp" :      "bt",
+      "text" :    " རྫོང་ཁ"
+    },
+   "ca" : {
+      "iso" :     "ca",
+      "wp" :      "ca",
+      "text" :    "Català"
+    },
+   "bal" : {
+      "iso" :     "bal",
+      "wp" :      "bal",
+      "text" :    "Català (Balear)"
+    },
+   "ceb" : {
+      "iso" :     "ceb",
+      "wp" :      "ceb",
+      "text" :    "Cebuano"
+    },
+   "co" : {
+      "iso" :     "co",
+      "wp" :      "co",
+      "text" :    "Corsu"
+    },
+   "cs" : {
+      "iso" :     "cs",
+      "wp" :      "cs_CZ",
+      "text" :    "Čeština"
+    },
+   "cy" : {
+      "iso" :     "cy",
+      "wp" :      "cy",
+      "text" :    "Cymraeg"
+    },
+   "da_DK" : {
+      "iso" :     "da",
+      "wp" :      "da_DK",
+      "text" :    "Dansk"
+    },
+   "de_DE" : {
+      "iso" :     "de",
+      "wp" :      "de_DE",
+      "text" :    "Deutsch"
+    },
+   "de_CH" : {
+      "iso" :     "de",
+      "wp" :      "de_CH",
+      "text" :    "Deutsch (Schweiz)"
+    },
+   "dv" : {
+      "iso" :     "dv",
+      "wp" :      "dv",
+      "text" :    "Dhivehi"
+    },
+   "dz" : {
+      "iso" :     "dz",
+      "wp" :      "dzo",
+      "text" :    "རྫོང་ཁ"
+    },
+   "el" : {
+      "iso" :     "el",
+      "wp" :      "el",
+      "text" :    "Ελληνικά"
+    },
+   "en_CA" : {
+      "iso" :     "en",
+      "wp" :      "en_CA",
+      "text" :    "English (Canada)"
+    },
+   "en_AU" : {
+      "iso" :     "en",
+      "wp" :      "en_AU",
+      "text" :    "English (Australia)"
+    },
+   "en_NZ" : {
+      "iso" :     "en",
+      "wp" :      "en_NZ",
+      "text" :    "English (New Zealand)"
+    },
+   "en_ZA" : {
+      "iso" :     "en",
+      "wp" :      "en_ZA",
+      "text" :    "English (South Africa)"
+    },
+   "en_GB" : {
+      "iso" :     "en",
+      "wp" :      "en_GB",
+      "text" :    "English (UK)"
+    },
+   "en_US" : {
+      "iso" :     "en",
+      "wp" :      "en_US",
+      "text" :    "English"
+    },
+   "eo" : {
+      "iso" :     "eo",
+      "wp" :      "eo",
+      "text" :    "Esperanto"
+    },
+   "es_CL" : {
+      "iso" :     "es",
+      "wp" :      "es_CL",
+      "text" :    "Español de Chile"
+    },
+   "es_ES" : {
+      "iso" :     "es",
+      "wp" :      "es_ES",
+      "text" :    "Español"
+    },
+   "es_PE" : {
+      "iso" :     "es",
+      "wp" :      "es_PE",
+      "text" :    "Español de Perú"
+    },
+   "es_CO" : {
+      "iso" :     "es",
+      "wp" :      "es_CO",
+      "text" :    "Español de Colombia"
+    },
+   "es_VE" : {
+      "iso" :     "es",
+      "wp" :      "es_VE",
+      "text" :    "Español de Venezuela"
+    },
+   "es_AR" : {
+      "iso" :     "es",
+      "wp" :      "es_AR",
+      "text" :    "Español de Argentina"
+    },
+   "es_GT" : {
+      "iso" :     "es",
+      "wp" :      "es_GT",
+      "text" :    "Español de Guatemala"
+    },
+   "es_MX" : {
+      "iso" :     "es",
+      "wp" :      "es_MX",
+      "text" :    "Español de México"
+    },
+   "es_PR" : {
+      "iso" :     "es",
+      "wp" :      "es_PR",
+      "text" :    "Español de Puerto Rico"
+    },
+   "et" : {
+      "iso" :     "et",
+      "wp" :      "et",
+      "text" :    "Eesti"
+    },
+   "fa_AF" : {
+      "iso" :     "fa",
+      "wp" :      "fa_AF",
+      "text" :    "فارسی"
+    },
+   "fa_IR" : {
+      "iso" :     "fa",
+      "wp" :      "fa_IR",
+      "text" :    "فارسی"
+    },
+   "fi" : {
+      "iso" :     "fi",
+      "wp" :      "fi",
+      "text" :    "Suomi"
+    },
+   "fo" : {
+      "iso" :     "fo",
+      "wp" :      "fo",
+      "text" :    "Føroyskt"
+    },
+   "fr_FR" : {
+      "iso" :     "fr",
+      "wp" :      "fr_FR",
+      "text" :    "Français"
+    },
+   "fr_BE" : {
+      "iso" :     "fr",
+      "wp" :      "fr_BE",
+      "text" :    "Français de Belgique"
+    },
+   "fr" : {
+      "iso" :     "fr",
+      "wp" :      "fr_CA",
+      "text" :    "Français du Canada"
+    },
+   "fy" : {
+      "iso" :     "fy",
+      "wp" :      "fy",
+      "text" :    "Frysk"
+    },
+   "fur" : {
+      "iso" :     "fur",
+      "wp" :      "fur",
+      "text" :    "Friulian"
+    },
+   "kl" : {
+      "iso" :     "kl",
+      "wp" :      "kal",
+      "text" :    "Kalaallisut"
+    },
+   "gd" : {
+      "iso" :     "gd",
+      "wp" :      "gd",
+      "text" :    "Gàidhlig"
+    },
+   "ga" : {
+      "iso" :     "ga",
+      "wp" :      "ga",
+      "text" :    "Gaelige"
+    },
+   "gl" : {
+      "iso" :     "gl",
+      "wp" :      "gl_ES",
+      "text" :    "Galego"
+    },
+   "gn" : {
+      "iso" :     "gn",
+      "wp" :      "gn",
+      "text" :    "Guaraní"
+    },
+   "gu" : {
+      "iso" :     "gu",
+      "wp" :      "gu",
+      "text" :    "ગુજરાતી"
+    },
+   "haw" : {
+      "iso" :     "haw",
+      "wp" :      "haw_US",
+      "text" :    "Ōlelo Hawaiʻi"
+    },
+   "haz" : {
+      "iso" :     "haz",
+      "wp" :      "haz",
+      "text" :    "هزاره گی"
+    },
+   "he" : {
+      "iso" :     "he",
+      "wp" :      "he_IL",
+      "text" :    "עברית"
+    },
+   "hi" : {
+      "iso" :     "hi",
+      "wp" :      "hi_IN",
+      "text" :    "हिन्दी"
+    },
+   "hr" : {
+      "iso" :     "hr",
+      "wp" :      "hr",
+      "text" :    "Hrvatski"
+    },
+   "hu" : {
+      "iso" :     "hu",
+      "wp" :      "hu_HU",
+      "text" :    "Magyar"
+    },
+   "id" : {
+      "iso" :     "id",
+      "wp" :      "id_ID",
+      "text" :    "Bahasa Indonesia"
+    },
+   "ido" : {
+      "iso" :     "ido",
+      "wp" :      "ido",
+      "text" :    "Ido"
+    },
+   "is" : {
+      "iso" :     "is",
+      "wp" :      "is_IS",
+      "text" :    "Íslenska"
+    },
+   "it" : {
+      "iso" :     "it",
+      "wp" :      "it_IT",
+      "text" :    "Italiano"
+    },
+   "ja" : {
+      "iso" :     "ja",
+      "wp" :      "ja",
+      "text" :    "日本語"
+    },
+   "jv" : {
+      "iso" :     "jv",
+      "wp" :      "jv_ID",
+      "text" :    "Basa Jawa"
+    },
+   "ka" : {
+      "iso" :     "ka",
+      "wp" :      "ka_GE",
+      "text" :    "ქართული"
+    },
+   "kab" : {
+      "iso" :     "kab",
+      "wp" :      "kab",
+      "text" :    "Taqbaylit"
+    },
+   "rw" : {
+      "iso" :     "rw",
+      "wp" :      "kin",
+      "text" :    "Ikinyarwanda"
+    },
+   "kk" : {
+      "iso" :     "kk",
+      "wp" :      "kk",
+      "text" :    "Қазақ тілі"
+    },
+   "km" : {
+      "iso" :     "km",
+      "wp" :      "km",
+      "text" :    "ភាសាខ្មែរ"
+    },
+   "kn" : {
+      "iso" :     "kn",
+      "wp" :      "kn",
+      "text" :    "ಕನ್ನಡ"
+    },
+   "ky" : {
+      "iso" :     "ky",
+      "wp" :      "ky_KY",
+      "text" :    "кыргыз тили"
+    },
+   "ko" : {
+      "iso" :     "ko",
+      "wp" :      "ko_KR",
+      "text" :    "한국어"
+    },
+   "ku" : {
+      "iso" :     "ku",
+      "wp" :      "ckb",
+      "text" :    "کوردی"
+    },
+   "kg" : {
+      "iso" :     "kg",
+      "wp" :      "kg",
+      "text" :    "تئلى"
+    },
+   "kh" : {
+      "iso" :     "kh",
+      "wp" :      "kh",
+      "text" :    "ភាសាខ្មែរ"
+    },
+   "lb" : {
+      "iso" :     "lb",
+      "wp" :      "lb_LU",
+      "text" :    "Lëtzebuergesch"
+    },
+   "li" : {
+      "iso" :     "li",
+      "wp" :      "li",
+      "text" :    "Limburgs"
+    },
+   "ln" : {
+      "iso" :     "ln",
+      "wp" :      "lin",
+      "text" :    "Lingála"
+    },
+   "lo" : {
+      "iso" :     "lo",
+      "wp" :      "lo",
+      "text" :    "ພາສາລາວ"
+    },
+   "lt" : {
+      "iso" :     "lt",
+      "wp" :      "lt_LT",
+      "text" :    "Lietuviškai"
+    },
+   "lv" : {
+      "iso" :     "lv",
+      "wp" :      "lv",
+      "text" :    "Latviešu valoda"
+    },
+   "mg" : {
+      "iso" :     "mg",
+      "wp" :      "mg_MG",
+      "text" :    "Malagasy"
+    },
+   "mk" : {
+      "iso" :     "mk",
+      "wp" :      "mk_MK",
+      "text" :    "Македонски јазик"
+    },
+   "ml" : {
+      "iso" :     "ml",
+      "wp" :      "ml_IN",
+      "text" :    "മലയാളം"
+    },
+   "mn" : {
+      "iso" :     "mn",
+      "wp" :      "mn",
+      "text" :    "Монгол хэл"
+    },
+   "mi" : {
+      "iso" :     "mi",
+      "wp" :      "mri",
+      "text" :    "Te Reo Māori"
+    },
+   "mr" : {
+      "iso" :     "mr",
+      "wp" :      "mr",
+      "text" :    "मराठी"
+    },
+   "ms" : {
+      "iso" :     "ms",
+      "wp" :      "ms_MY",
+      "text" :    "Bahasa Melayu"
+    },
+   "my" : {
+      "iso" :     "my",
+      "wp" :      "my_MM",
+      "text" :    "ဗမာစာ"
+    },
+   "mv" : {
+      "iso" :     "mv",
+      "wp" :      "mv",
+      "text" :    "ދިވެހިބަސް"
+    },
+   "me" : {
+      "iso" :     "me",
+      "wp" :      "me_ME",
+      "text" :    "Crnogorski"
+    },
+   "nb" : {
+      "iso" :     "nb",
+      "wp" :      "nb_NO",
+      "text" :    "Norsk Bokmål"
+    },
+   "ne" : {
+      "iso" :     "ne",
+      "wp" :      "ne_NP",
+      "text" :    "नेपाली"
+    },
+   "nl_NL" : {
+      "iso" :     "nl",
+      "wp" :      "nl_NL",
+      "text" :    "Nederlands"
+    },
+   "nl_BE" : {
+      "iso" :     "nl-be",
+      "wp" :      "nl_BE",
+      "text" :    "Nederlands (België)"
+    },
+   "nn" : {
+      "iso" :     "nn",
+      "wp" :      "nn_NO",
+      "text" :    "Norsk Nynorsk"
+    },
+   "oc" : {
+      "iso" :     "oc",
+      "wp" :      "oci",
+      "text" :    "Occitan"
+    },
+   "or" : {
+      "iso" :     "or",
+      "wp" :      "ory",
+      "text" :    "ଓଡ଼ିଆ"
+    },
+   "os" : {
+      "iso" :     "os",
+      "wp" :      "os",
+      "text" :    "Ирон"
+    },
+   "ps" : {
+      "iso" :     "ps",
+      "wp" :      "ps",
+      "text" :    "پښتو"
+    },
+   "pa" : {
+      "iso" :     "pa",
+      "wp" :      "pa_IN",
+      "text" :    "ਪੰਜਾਬੀ"
+    },
+   "pl" : {
+      "iso" :     "pl",
+      "wp" :      "pl_PL",
+      "text" :    "Polski"
+    },
+   "pt_BR" : {
+      "iso" :     "pt",
+      "wp" :      "pt_BR",
+      "text" :    "Português"
+    },
+   "pt_PT" : {
+      "iso" :     "pt",
+      "wp" :      "pt_PT",
+      "text" :    "Português"
+    },
+   "rhg" : {
+      "iso" :     "rhg",
+      "wp" :      "rhg",
+      "text" :    "Ruáinga"
+    },
+   "ro" : {
+      "iso" :     "ro",
+      "wp" :      "ro_RO",
+      "text" :    "Română"
+    },
+   "roh" : {
+      "iso" :     "roh",
+      "wp" :      "roh",
+      "text" :    "Rumantsch Vallader"
+    },
+   "ru" : {
+      "iso" :     "ru",
+      "wp" :      "ru_RU",
+      "text" :    "Русский"
+    },
+   "rue" : {
+      "iso" :     "rue",
+      "wp" :      "rue",
+      "text" :    "Русиньскый"
+    },
+   "sah" : {
+      "iso" :     "sah",
+      "wp" :      "sah",
+      "text" :    "Сахалыы"
+    },
+   "sa" : {
+      "iso" :     "sa",
+      "wp" :      "sa_IN",
+      "text" :    "भारतम्"
+    },
+   "sc" : {
+      "iso" :     "sc",
+      "wp" :      "srd",
+      "text" :    "Sardu"
+    },
+   "szl" : {
+      "iso" :     "szl",
+      "wp" :      "szl",
+      "text" :    "Ślōnskŏ gŏdka"
+    },
+   "sd" : {
+      "iso" :     "sd",
+      "wp" :      "snd",
+      "text" :    "سنڌي"
+    },
+   "si" : {
+      "iso" :     "si",
+      "wp" :      "si_LK",
+      "text" :    "සිංහල"
+    },
+   "sk" : {
+      "iso" :     "sk",
+      "wp" :      "sk_SK",
+      "text" :    "Slovenčina"
+    },
+   "sl" : {
+      "iso" :     "sl",
+      "wp" :      "sl_SI",
+      "text" :    "Slovenščina"
+    },
+   "so" : {
+      "iso" :     "so",
+      "wp" :      "so_SO",
+      "text" :    "Af-Soomaali"
+    },
+   "sq" : {
+      "iso" :     "sq",
+      "wp" :      "sq",
+      "text" :    "Shqip"
+    },
+   "sr" : {
+      "iso" :     "sr",
+      "wp" :      "sr_RS",
+      "text" :    "Српски језик"
+    },
+   "su" : {
+      "iso" :     "su",
+      "wp" :      "su_ID",
+      "text" :    "Basa Sunda"
+    },
+   "sw" : {
+      "iso" :     "sw",
+      "wp" :      "sw",
+      "text" :    "Kiswahili"
+    },
+   "sv" : {
+      "iso" :     "sv",
+      "wp" :      "sv_SE",
+      "text" :    "Svenska"
+    },
+   "gsw" : {
+      "iso" :     "gsw",
+      "wp" :      "gsw",
+      "text" :    "Schwyzerdütsch"
+    },
+   "tl" : {
+      "iso" :     "tl",
+      "wp" :      "tl",
+      "text" :    "Tagalog"
+    },
+   "ty" : {
+      "iso" :     "ty",
+      "wp" :      "tah",
+      "text" :    "Reo Tahiti"
+    },
+   "tg" : {
+      "iso" :     "tg",
+      "wp" :      "tg",
+      "text" :    "Тоҷикӣ"
+    },
+   "tzm" : {
+      "iso" :     "tzm",
+      "wp" :      "tzm",
+      "text" :    "ⵜⴰⵎⴰⵣⵉⵖⵜ"
+    },
+   "ta_IN" : {
+      "iso" :     "ta",
+      "wp" :      "ta_IN",
+      "text" :    "தமிழ்"
+    },
+   "ta_LK" : {
+      "iso" :     "ta",
+      "wp" :      "ta_LK",
+      "text" :    "தமிழ்"
+    },
+   "tt" : {
+      "iso" :     "tt",
+      "wp" :      "tt_RU",
+      "text" :    "Татар теле"
+    },
+   "te" : {
+      "iso" :     "te",
+      "wp" :      "te",
+      "text" :    "తెలుగు"
+    },
+   "th" : {
+      "iso" :     "th",
+      "wp" :      "th",
+      "text" :    "ไทย"
+    },
+   "bo" : {
+      "iso" :     "bo",
+      "wp" :      "bo",
+      "text" :    "བོད་སྐད"
+    },
+   "ti" : {
+      "iso" :     "ti",
+      "wp" :      "tir",
+      "text" :    "ትግርኛ"
+    },
+   "tr" : {
+      "iso" :     "tr",
+      "wp" :      "tr_TR",
+      "text" :    "Türkçe"
+    },
+   "tm" : {
+      "iso" :     "tm",
+      "wp" :      "tuk",
+      "text" :    "Türkmençe"
+    },
+   "twd" : {
+      "iso" :     "twd",
+      "wp" :      "twd",
+      "text" :    "Twents"
+    },
+   "tj" : {
+      "iso" :     "tj",
+      "wp" :      "tj",
+      "text" :    "Забо́ни тоҷикӣ́"
+    },
+   "ug" : {
+      "iso" :     "ug",
+      "wp" :      "ug_CN",
+      "text" :    "Uyƣurqə"
+    },
+   "uk" : {
+      "iso" :     "uk",
+      "wp" :      "uk",
+      "text" :    "Українська"
+    },
+   "ur" : {
+      "iso" :     "ur",
+      "wp" :      "ur",
+      "text" :    "اردو"
+    },
+   "uz" : {
+      "iso" :     "uz",
+      "wp" :      "uz_UZ",
+      "text" :    "Oʻzbek"
+    },
+   "vec" : {
+      "iso" :     "vec",
+      "wp" :      "vec",
+      "text" :    "Vèneto"
+    },
+   "vi" : {
+      "iso" :     "vi",
+      "wp" :      "vi",
+      "text" :    "Tiếng Việt"
+    },
+   "wa" : {
+      "iso" :     "wa",
+      "wp" :      "wa",
+      "text" :    "Walon"
+    },
+   "yo" : {
+      "iso" :     "yo",
+      "wp" :      "yor",
+      "text" :    "Yorùbá"
+    },
+   "xmf" : {
+      "iso" :     "xmf",
+      "wp" :      "xmf",
+      "text" :    "მარგალური ნინა"
+    },
+   "zh" : {
+      "iso" :     "zh",
+      "wp" :      "zh_CN",
+      "text" :    "中文 (中国)"
+    },
+   "zh" : {
+      "iso" :     "zh",
+      "wp" :      "zh_HK",
+      "text" :    "中文 (香港)"
+    },
+   "zh" : {
+      "iso" :     "zh",
+      "wp" :      "zh_TW",
+      "text" :    "中文 (台灣)"
+    }
+}

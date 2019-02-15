@@ -1,0 +1,9 @@
+[
+    "slugs-must-be-unique",
+    "cannot-deactivate-input-language",
+    "cannot-set-deactivated-language-input-language",
+    "cannot-deactivate-default-language",
+    "cannot-set-deactivated-language-default-language",
+    "saving",
+    "data-saved"
+]

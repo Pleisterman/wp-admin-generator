@@ -1,0 +1,52 @@
+/*
+        @package    pleisterman-wp-admin-generator
+ 
+        file:       css\dropdown.css
+*/
+
+.radio-group {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.radio-item {
+    display: block;
+    padding: 0.4em;
+}
+
+.radio-label {
+    margin-left: 0.6em;
+    padding: 0.4em;
+}
+
+.vertical-radio-group {
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 1.4em;
+}
+
+.vertical-radio-item {
+    display: block;
+    padding: 0.4em;
+}
+
+.vertical-radio-label {
+    margin-left: 0.6em;
+    padding: 0.4em;
+}
+
+.horizontal-radio-group {
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 1.4em;
+}
+
+.horizontal-radio-item {
+    display: block;
+    padding: 0.4em;
+}
+
+.horizontal-radio-label {
+    margin-left: 0.6em;
+    padding: 0.4em;
+}
