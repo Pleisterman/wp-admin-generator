@@ -18,6 +18,7 @@ completed:
 the plugin when installed will generate a menu adminGenerator.
 the menu items contain some example pages generated from JSON.
 The plugin standard functions that handle data display and saving
+through the web route and ajax 
 Functions can be customised in a separate section.
 The plugin could be updated without touching the custom functions
 some research is still needed. 
