@@ -59,3 +59,4 @@ remove vendor / composer
 
 run composer dump
 
+The wp-simple-translator is a version with Ajax
