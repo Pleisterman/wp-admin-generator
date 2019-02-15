@@ -3,7 +3,7 @@ Adminstratie pagina generator for wordpress
 
 This plugin will generate admin pages from json.
 
-I found a lot of wordpress plugins quite complicated, different and complicated.
+I found a lot of wordpress plugins quite complicated, different and confusing.
 My goal was learning more about the Wordpress backend.
 I learned  a lot.
 A debug feature is implemented.
